@@ -1,8 +1,8 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
-let player = { x: 10, y: 10, size: 20 };
-let bonus = { x: 370, y: 10, size: 20 };
+let player = { x: 10, y: 360, size: 20 };
+let bonus = { x: 180, y: 180, size: 20 };
 
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
