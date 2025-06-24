@@ -12,6 +12,11 @@ body {
   margin-top: 50px;
 }
 
+canvas {
+  border: 3px solid lime;
+  background-color: #1a1a1a;
+}
+
 #bonus.hidden {
   display: none;
 }
